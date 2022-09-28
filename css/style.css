@@ -1,5 +1,5 @@
 .bd-placeholder-img {
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-anchor: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -49,25 +49,22 @@
   -webkit-overflow-scrolling: touch;
 }
 
-
 .logo-github,
 .logo-instagram,
 .logo-twitter,
 .logo-linkedin,
 .logo-lastfm,
 .logo-youtube {
+  margin-top: 1rem;
   width: 32px;
   height: 32px;
   fill: currentColor;
-  filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-      -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-      box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-      margin-bottom:20px;
-  }
-  
-
-
-
-
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
